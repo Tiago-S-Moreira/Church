@@ -17,8 +17,7 @@
     font-weight: bold;
 }
 @media screen and (max-width: 600px) {
-    .card h2{
-        
+    .card h2{ 
         font-size: 14px;
     }
 }
