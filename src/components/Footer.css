@@ -1,0 +1,32 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #172022;
+    color: #fff;
+    margin-top: 5em;
+    height: 15em;
+    font-size: 18px;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.equip h4{
+    margin-top: 1em;
+}
+.contact li{
+    margin-top: 8px;
+}
+.social li{
+    display: inline-flex;
+    align-items: center;
+    width: 50px;
+    margin-top: 8px;
+}
+.social img{
+    width: 32px;
+}

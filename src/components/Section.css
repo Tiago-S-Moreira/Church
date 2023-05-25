@@ -1,0 +1,37 @@
+.video, h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5em;
+}
+.videos-button ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 2em;
+}
+.videos-button li{
+    width: 15em;
+}
+.videos-button button{
+    background-color: #ff6666;
+    color: #fff;
+    width: 24vh;
+    height: 2.5em;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 6px 0 6px 0;
+    cursor: pointer;
+}
+.videos-button button:hover{
+    background-color: red;
+}
+@media screen and (max-width: 768px) {
+    .videos-button ul{
+        flex-direction: column;
+    }
+    .videos-button li{
+        margin-top: 1em;
+    }
+}

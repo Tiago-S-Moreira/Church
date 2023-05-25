@@ -1,0 +1,20 @@
+.prog{
+    margin-bottom: -3em;
+}
+.prog h2, h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-prog{
+    display: grid;
+    grid-template-columns: repeat(4, 14em);
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width: 768px) {
+    .card-prog {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1em;
+    }
+}
