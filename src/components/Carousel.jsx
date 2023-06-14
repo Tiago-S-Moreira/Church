@@ -2,7 +2,6 @@ import { Carousel } from 'antd';
 import image1 from '../img/banner1.png';
 import image2 from '../img/banner2.png';
 import image3 from '../img/banner3.png';
-import image4 from '../img/banner4.png';
 import image5 from '../img/banner5.png';
 
 
@@ -39,9 +38,6 @@ const Banner = () => (
     </div>
     <div>
     <img src={image3} style={responsiveContentStyle} alt="" />
-    </div>
-    <div>
-    <img src={image4} style={responsiveContentStyle} alt="" />
     </div>
     <div>
     <img src={image5} style={responsiveContentStyle} alt="" />
